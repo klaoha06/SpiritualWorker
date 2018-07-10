@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27185ee7-8a0d-4811-bdb1-299ab16125b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/twitter_api.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/workers/tweet_worker.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/sidekiq.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/twitter.rb" afterDir="false" />
-    </list>
+    <list default="true" id="27185ee7-8a0d-4811-bdb1-299ab16125b2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -427,12 +421,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530942218343</updated>
       <workItem from="1530942219559" duration="11823000" />
-      <workItem from="1531222986689" duration="2684000" />
+      <workItem from="1531222986689" duration="3164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14507000" />
+    <option name="totallyTimeSpent" value="14987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="240" y="1103" width="1440" height="877" extended-state="6" />
