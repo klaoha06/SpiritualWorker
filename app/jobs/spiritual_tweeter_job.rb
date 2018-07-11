@@ -1,9 +1,9 @@
 class SpiritualTweeterJob < ApplicationJob
   queue_as :default
 
-  def perform(content, specific_time, interval, specific_day, random, )
+  def perform(*args)
     # Sanitize Input
-    TwitterAPI.new.client.update(content)
+    TwitterAPI.new.client.update(*args)
 
     # Return Callback
   end
