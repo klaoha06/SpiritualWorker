@@ -65,6 +65,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'twitter'
 
 gem 'redis'
-gem 'sidekiq', github: 'sinatra/sinatra'
+gem 'sidekiq'
 gem 'rack'
 gem 'sinatra'
