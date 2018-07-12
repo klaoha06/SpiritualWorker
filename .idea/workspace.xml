@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27185ee7-8a0d-4811-bdb1-299ab16125b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config/initializers/redis.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="27185ee7-8a0d-4811-bdb1-299ab16125b2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,11 +154,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="240" />
-    <option name="y" value="1103" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="899" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -407,12 +404,12 @@
       <workItem from="1530942219559" duration="11823000" />
       <workItem from="1531222986689" duration="4336000" />
       <workItem from="1531288220613" duration="4691000" />
-      <workItem from="1531294288968" duration="854000" />
+      <workItem from="1531294288968" duration="1143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21704000" />
+    <option name="totallyTimeSpent" value="21993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="240" y="1103" width="1440" height="877" extended-state="6" />
