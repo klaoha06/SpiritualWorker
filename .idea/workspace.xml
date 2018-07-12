@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27185ee7-8a0d-4811-bdb1-299ab16125b2" name="Default" comment="" />
+    <list default="true" id="27185ee7-8a0d-4811-bdb1-299ab16125b2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/tasks/scheduler.rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/workers/tweet_worker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/workers/tweet_worker.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,25 +16,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SpiritualWorker@db_create__SpiritualWorker.rcov" NAME="db:create: SpiritualWorker Coverage Results" MODIFIED="1531224465750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SpiritualWorker" />
-    <SUITE FILE_PATH="coverage/SpiritualWorker@Development__SpiritualWorker.rcov" NAME="Development: SpiritualWorker Coverage Results" MODIFIED="1531224968401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SpiritualWorker" />
-    <SUITE FILE_PATH="coverage/SpiritualWorker@db_migrate__SpiritualWorker.rcov" NAME="db:migrate: SpiritualWorker Coverage Results" MODIFIED="1531224491841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SpiritualWorker" />
+    <SUITE FILE_PATH="coverage/SpiritualWorker@Development__SpiritualWorker.rcov" NAME="Development: SpiritualWorker Coverage Results" MODIFIED="1531370654068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SpiritualWorker" />
+    <SUITE FILE_PATH="coverage/SpiritualWorker@db_migrate__SpiritualWorker.rcov" NAME="db:migrate: SpiritualWorker Coverage Results" MODIFIED="1531367415136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SpiritualWorker" />
+    <SUITE FILE_PATH="coverage/SpiritualWorker@scheduler_test_perform__SpiritualWorker.rcov" NAME="scheduler_test:perform: SpiritualWorker Coverage Results" MODIFIED="1531367986199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SpiritualWorker" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="happy_tweeter_worker.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/workers/happy_tweeter_worker.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="14" selection-start-line="5" selection-end-line="6" />
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -37,8 +34,53 @@
       <file leaf-file-name="tweet_worker.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/workers/tweet_worker.rb">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spiritual_tweeter_job.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/jobs/spiritual_tweeter_job.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_job.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/jobs/application_job.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scheduler.rake" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler.rake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twitter.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scheduler_test.rake" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler_test.rake">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -47,41 +89,14 @@
         <entry file="file://$PROJECT_DIR$/config/initializers/sidekiq.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redis.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="redis.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/redis.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twitter.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ru" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
@@ -93,15 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -109,6 +115,7 @@
       <find>bundle</find>
       <find>twi</find>
       <find>pool</find>
+      <find>s</find>
     </findStrings>
   </component>
   <component name="GeneratorOptions">
@@ -125,14 +132,16 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/workers/tweet_worker.rb" />
         <option value="$PROJECT_DIR$/app/workers/happy_tweeter_worker.rb" />
         <option value="$PROJECT_DIR$/app/jobs/spiritual_tweeter_job.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/config/initializers/sidekiq.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/scheduler_test.rake" />
         <option value="$PROJECT_DIR$/config/initializers/redis.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/sidekiq.rb" />
+        <option value="$PROJECT_DIR$/app/workers/tweet_worker.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/scheduler.rake" />
       </list>
     </option>
   </component>
@@ -156,9 +165,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="240" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="899" />
+    <option name="y" value="1103" />
+    <option name="width" value="720" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,6 +193,18 @@
               <item name="SpiritualWorker" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpiritualWorker" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiritualWorker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiritualWorker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiritualWorker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiritualWorker" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="workers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,6 +218,17 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="initializers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpiritualWorker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiritualWorker" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpiritualWorker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpiritualWorker" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -208,7 +240,7 @@
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="RunAnythingHistoryKey" value="rails g sidekiq:worker Tweet&#9;null&#9;null&#10;bundle install&#9;null&#9;null&#10;gem install twitter&#9;null&#9;null&#10;sudo bundle install&#9;null&#9;null&#10;sudo gem install bundler&#9;null&#9;null" />
+    <property name="RunAnythingHistoryKey" value="rake --tasks&#9;null&#9;null&#10;db:migrate: SpiritualWorker&#9;RUN_CONFIGURATION&#9;db:migrate: SpiritualWorker&#10;rails g sidekiq:worker Tweet&#9;null&#9;null&#10;bundle install&#9;null&#9;null&#10;gem install twitter&#9;null&#9;null&#10;sudo bundle install&#9;null&#9;null&#10;sudo gem install bundler&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -221,6 +253,7 @@
       <command value="gem install twitter" />
       <command value="bundle install" />
       <command value="rails g sidekiq:worker Tweet" />
+      <command value="rake --tasks" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -330,6 +363,27 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
     </configuration>
+    <configuration name="scheduler_test:perform: SpiritualWorker" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="SpiritualWorker" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="scheduler_test:perform" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
     <configuration name="spec: SpiritualWorker" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="SpiritualWorker" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -382,9 +436,11 @@
       <item itemvalue="Rails.Development: SpiritualWorker" />
       <item itemvalue="Rake.db:create: SpiritualWorker" />
       <item itemvalue="Rake.db:migrate: SpiritualWorker" />
+      <item itemvalue="Rake.scheduler_test:perform: SpiritualWorker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Rake.scheduler_test:perform: SpiritualWorker" />
         <item itemvalue="Rake.db:migrate: SpiritualWorker" />
         <item itemvalue="Rake.db:create: SpiritualWorker" />
       </list>
@@ -405,23 +461,24 @@
       <workItem from="1531222986689" duration="4336000" />
       <workItem from="1531288220613" duration="4691000" />
       <workItem from="1531294288968" duration="1143000" />
+      <workItem from="1531363663270" duration="5919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21993000" />
+    <option name="totallyTimeSpent" value="27912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="1103" width="1440" height="877" extended-state="6" />
+    <frame x="240" y="1103" width="720" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10902778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21805556" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32960325" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -444,20 +501,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/workers/happy_tweeter_worker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/sidekiq.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -646,20 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/application_job.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/spiritual_tweeter_job.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.5.1/lib/ruby/2.5.0/profile.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -713,27 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/workers/happy_tweeter_worker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/workers/tweet_worker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -751,17 +759,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler_test.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/workers/happy_tweeter_worker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jobs/spiritual_tweeter_job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jobs/application_job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/workers/tweet_worker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/sidekiq.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/redis.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
         </state>
       </provider>
     </entry>
