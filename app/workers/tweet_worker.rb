@@ -9,6 +9,6 @@ class TweetWorker
     message = "HappyTweeter is tweeting at #{time_now}"
     puts message
 
-    # TwitterAPI.new.client.update(message)
+    TwitterAPI.new.client.update(message)
   end
 end
